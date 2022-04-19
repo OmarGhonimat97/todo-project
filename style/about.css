@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --main-color: #cfad15ee;
+    --black: #13131a;
+    --bg: #4c9dd3;
+    --border: .1rem solid rgba(255,255,255,.3);
+    --white: #fff;
+}
+
+* {
+   font-family: 'Roboto' ,sans-serif;
+   margin: 0;
+   padding: 0;
+   outline: none;
+   /*border: none;*/
+   text-decoration: none;
+   text-transform: capitalize;
+   box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;  /*10px*/
+    overflow-x: hidden;
+}
+
+a{
+    color: var(--main-color);
+}
+section {
+    padding: 2rem 7%;
+}
+
+Header {
+    background-color: var(--white);
+    border-bottom: var(--black);
+    display: flex;
+    padding: .7rem 7%;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    Header .logo {
+        height: 7rem;
+    }
+    
+    header .navbar a {
+        margin:  0 1rem;
+        font-size: 1.5rem;
+    }
+    
+    header .navbar a:hover{
+        color: var(--black);
+        border-bottom: 0.1rem solid var(--black);
+        padding-bottom: 0.5rem;
+    }
+
+    body  {
+        background-image: url("https://miro.medium.com/max/1000/1*2eHgqqjIciHAPOm1uV9GmA.png");
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+
+main .description {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+ }
+img {
+    /* margin: 5%; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+main #info {
+    margin-top: 2%;
+    margin-right: 40%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main .form {
+margin-left: 5%;
+margin-bottom: -4%;
+margin-top: 3%;
+font-size: 1.3rem;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #066442;
+    border: none;
+    color: white;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    margin: 5% 5%;
+    cursor: pointer;
+  }
+    footer {
+        background-color: var(--white);
+        border-bottom: var(--black);
+        display: flex;
+        padding: 1.5rem 7%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+        }
+        #footer {
+            position:fixed;
+            bottom:0;
+        width: 100%;
+           border-top: var(--black);
+         }

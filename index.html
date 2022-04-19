@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <!-- <meta http-equiv="refresh" content="5"> -->
 </head>
 <body>
-    <Header>
-        <h1>To Do </h1>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AjwgFzxg5hs9b_SCHyA2l0Ngy4vVRdMSzg&usqp=CAU" alt="logo">
-
-    <nav>
-        <ul>
-            <li><a href="./index.html">Tasks</a></li>
-            <li><a href="./about.html">About us</a></li>
-          
-
-        </ul>
+    
+    <Header class="heading">
+        <h1>to do</h1>
+        
+       
+        
+    <nav class="navbar">
+       
+            <a href="./index.html">Tasks</a>
+            <a href="./about.html">About us</a> 
     </nav>
-        </Header>
 
-        <main>
-            <table>
+    <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AjwgFzxg5hs9b_SCHyA2l0Ngy4vVRdMSzg&usqp=CAU" alt="logo" /> 
+    
+</Header>
+
+        <main class="main">
+            <section>
+            <table class="taskstable">
                 <tr>
                   <th>Task</th>
                   <th>Status</th>
             
                 </tr>
                 <tr>
-                  <td>Task1</td>
-                  <td><input type="checkbox"></td>
-                  
+                    <td>Task1</td>
+                    <td><input type="checkbox"></td>  
+            
                 </tr>
                 <tr>
                   <td>Task2</td>
@@ -44,15 +49,23 @@
                    
                   </tr>
               </table>
+            
         </main>
 
-        <Footer>
-<p>
-    &copy; copyright 2022 <br>
-    <a href="https://www.facebook.com/">Facebook</a><br>
-    <a href="+962">+962-xxxx-xxxxx</a>
-
+        <Footer class="footer" id="footer">
+            
+            
+                <p>
+    &copy; copyright 2022 
 </p>
+<p>
+    <a href="https://www.facebook.com/">Facebook</a>
+</p>
+<p>
+    <a href="+962">+962-xxxx-xxxxx</a>
+</p>
+
+
         </Footer>
 </body>
 </html>
