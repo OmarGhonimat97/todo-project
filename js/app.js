@@ -27,7 +27,7 @@ switch (answers[1]) {
         break;
 }
 
-answers[3] = prompt (`Are you over the age of 21 ${answers[0]}?`);
+answers[3] = prompt (`Are you over the age of 21 ${answers[0]}? Yes/No`);
 switch (answers[3]) {
     case "Yes":
         answers[3] = "Yes"; 
@@ -40,7 +40,7 @@ switch (answers[3]) {
         break;
 }
 
-answers[4] = prompt (`Is this your first time visiting our website ${answers[0]}?`);
+answers[4] = prompt (`Is this your first time visiting our website ${answers[0]}? Yes/No`);
 switch (answers[4]) {
     case "Yes":
         answers[4] = "Yes"; 
@@ -53,7 +53,7 @@ switch (answers[4]) {
         break;
 }
 
-answers[5] = prompt (`Are you using your laptop ${answers[0]}?`);
+answers[5] = prompt (`Are you using your laptop ${answers[0]}? Yes/No`);
 switch (answers[5]) {
     case "Yes":
         answers[5] = "Yes"; 
