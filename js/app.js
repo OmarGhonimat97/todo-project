@@ -1,4 +1,3 @@
-
 let answers = [];
 answers[0] = prompt ("Enter your name:");
 answers[1] = prompt("What is your gender?(male/female)");
@@ -66,9 +65,11 @@ switch (answers[5]) {
         answers[5] = "invalid";
         break;
 }
+
 let reversedAnswers = [];
 for (let i = 0; i < answers.length; i++) {
    reversedAnswers.unshift(answers[i]);
     
 }
+
 console.log(reversedAnswers)
