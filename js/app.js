@@ -35,8 +35,11 @@ switch (answers[3]) {
     case "No":
         answers[3] = "No";
     break;
-    default:
+    case "":
         answers[3] = "invalid";
+        break;
+    default:
+        prompt (`Are you over the age of 21 ${answers[0]}? Yes/No`);
         break;
 }
 
@@ -48,8 +51,11 @@ switch (answers[4]) {
     case "No":
         answers[4] = "No";
     break;
+    case "":
+        answers[3] = "invalid";
+        break;
     default:
-        answers[4] = "invalid";
+        prompt (`Is this your first time visiting our website ${answers[0]}? Yes/No`);
         break;
 }
 
@@ -61,8 +67,11 @@ switch (answers[5]) {
     case "No":
         answers[5] = "No";
     break;
+    case "":
+        answers[3] = "invalid";
+        break;
     default:
-        answers[5] = "invalid";
+       prompt (`Are you using your laptop ${answers[0]}? Yes/No`);
         break;
 }
 
